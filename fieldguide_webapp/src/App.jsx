@@ -10,6 +10,7 @@ import {
   Clients,
   CTA,
   Footer,
+  Awards,
 } from "./components";
 
 const App = () => (
@@ -28,6 +29,7 @@ const App = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
+        <Awards />
         <Clients />
         <Header />
         <Products />

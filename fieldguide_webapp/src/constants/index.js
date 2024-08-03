@@ -13,6 +13,9 @@ import {
   twitter,
   linkedin,
   person,
+  year1,
+  year2,
+  year3,
 } from "../assets";
 
 export const navLinks = [
@@ -37,15 +40,15 @@ export const navLinks = [
 export const awards = [
   {
     id: "award-1",
-    year: "2023",
+    year: year1,
   },
   {
     id: "award-2",
-    year: "2022",
+    year: year2,
   },
   {
     id: "award-3",
-    year: "2021",
+    year: year3,
   },
 ];
 
@@ -56,25 +59,26 @@ export const products = [
     content: "Award-winning AI built for advisory & audit",
   },
   {
-    id: "product-2",
-    title: "Engagement Hub",
-    content: "End-to-end engagement management",
-  },
-  {
-    id: "product-3",
-    title: "Reporting Automation",
-    content: "One-click collaborate report generation",
-  },
-  {
     id: "product-4",
     title: "Document Management",
     content: "Enterprise-grade workpaper management",
+  },
+  {
+    id: "product-2",
+    title: "Engagement Hub",
+    content: "End-to-end engagement management",
   },
   {
     id: "product-5",
     title: "Request Management",
     content: "Automated modern request management",
   },
+  {
+    id: "product-3",
+    title: "Reporting Automation",
+    content: "One-click collaborate report generation",
+  },
+
   {
     id: "product-6",
     title: "Client Hub",
@@ -89,25 +93,26 @@ export const solutions = [
     content: "Power your risk advisory, SOC, ESG, and advisory practice",
   },
   {
-    id: "solution-2",
-    title: "Regulatory Compliance",
-    content: "Powering SOX, HIPAA, FFIEC, and many more regulatory frameworks",
-  },
-  {
-    id: "solution-3",
-    title: "IT Audit",
-    content: "IT general controls, internal audits and certifications",
-  },
-  {
     id: "solution-4",
     title: "SOC Readiness & Audits",
     content: "SOC audit practices love using Field streamline work",
+  },
+  {
+    id: "solution-2",
+    title: "Regulatory Compliance",
+    content: "Powering SOX, HIPAA, FFIEC, and many more regulatory frameworks",
   },
   {
     id: "solution-5",
     title: "Cybersecurity & Privacy",
     content: "Efficiently address standards like HITRUST, PCI DSS, and others",
   },
+  {
+    id: "solution-3",
+    title: "IT Audit",
+    content: "IT general controls, internal audits and certifications",
+  },
+
   {
     id: "solution-6",
     title: "Financial Audit",
@@ -299,14 +304,6 @@ export const clients = [
   {
     id: "client-7",
     logo: LBMC,
-  },
-  {
-    id: "client-8",
-    logo: berry,
-  },
-  {
-    id: "client-9",
-    logo: aprio,
   },
 ];
 

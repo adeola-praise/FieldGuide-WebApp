@@ -8,6 +8,8 @@ import Hero from "./Hero";
 import Header from "./Header";
 import Products from "./Products";
 import Solutions from "./Solutions";
+import Awards from "./Awards";
+import GetStarted from "./GetStarted";
 
 export {
   Navbar,
@@ -19,5 +21,7 @@ export {
   Header,
   Products,
   Solutions,
+  Awards,
+  GetStarted,
   Button,
 };
